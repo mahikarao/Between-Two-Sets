@@ -1,5 +1,12 @@
 # Between-Two-Sets
-Hackerrank competitive coding question level easy
+You will be given two arrays of integers and asked to determine all integers that satisfy the following two conditions:
+        The elements of the first array are all factors of the integer being considered
+        The integer being considered is a factor of all elements of the second array
+
+These numbers are referred to as being between the two arrays. You must determine how many such numbers exist.Complete the getTotalX function in the editor below. It should return the number of integers that are betwen the sets.
+getTotalX has the following parameter(s):
+a: an array of integers
+b: an array of integers
 
 # Function Description:
 Approach with LCM and min value of list b Logic: 
